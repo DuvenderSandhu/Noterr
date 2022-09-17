@@ -1,0 +1,20 @@
+<div class="userhome min-h-[70vh] bg-gray-100 flex flex-col justify-center items-center">
+<h1 class="text-4xl text-center font-bold my-8">Welcome Back {{loginInfo.user.username}}</h1>
+<button class="inline-flex items-center bg-blue-500 text-white border-0 py-2 px-5 hover:text-black focus:outline-none hover:bg-blue-300 rounded text-base mt-4  md:mt-0 mx-4  cursor-pointer"><a href="/notes">Notes Section </a></button>
+<div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 mx-auto flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+      <h2 class="text-gray-900 text-lg font-medium title-font mb-5">Enter Your Notes Here </h2>
+      <form action="/notes" method="post">
+      <div class="relative mb-4">
+        <label for="full-name" class="leading-7 text-sm text-gray-600">Title</label>
+        <input type="text"  id="full-name" name="title" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+      </div>
+      <div class="relative mb-4">
+        <label for="email" class="leading-7 text-sm text-gray-600">Note</label>
+        <textarea type="text" required id="email" name="notes" class=" resize-none w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></textarea>
+      </div>
+      <input type="submit" class=" m-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg" value="Add Note">
+      </form>
+    </div>
+</div>
+
+</div>
