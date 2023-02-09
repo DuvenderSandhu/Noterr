@@ -12,7 +12,7 @@ Noterr is a Notes Taking App that Crate/Retrive/Update/Delete Notes after authen
 ```node index.js``` in Folder
 
 ## Demo
-![First Page](Noterr.gif)
+![First Page](static/Image1.png)
 
 ![First Page](static/Image2.png)
 
