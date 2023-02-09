@@ -1,5 +1,5 @@
 # Noterr 
-Noterr is a Notes Taking App that Crate/Retrive/Update/Delete Notes after authenicate user by Login. This an Express App with Handlebars in Frontend with no Backend (Creates Folder of Notes). 
+Noterr is a Notes Taking App that Crate/Retrive/Update/Delete Notes after authenicate user by Login. This an Express App with Handlebars in Frontend with no Database (Creates Folder of Notes). 
 # Git Repository
 
 [https://github.com/DuvenderSandhu/Noterr](https://github.com/DuvenderSandhu/Noterr)
