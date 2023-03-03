@@ -1,15 +1,37 @@
 # Noterr 
+ 
 Noterr is a Notes Taking App that Crate/Retrive/Update/Delete Notes after authenicate user by Login. This an Express App with Handlebars in Frontend with no Database (Creates Folder of Notes). 
-# Git Repository
+## Tech Stack
 
-[https://github.com/DuvenderSandhu/Noterr](https://github.com/DuvenderSandhu/Noterr)
-# Install and Run
-## Clone Application: 
+**Client:** Express-handlebars, TailwindCSS
 
-```git clone "https://github.com/DuvenderSandhu/Noterr/"```
+**Server:** Node, Express
 
-## Run
-```node index.js``` in Folder
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone "https://github.com/DuvenderSandhu/Noterr/"
+```
+
+Go to the project directory
+
+```bash
+  cd Noterr
+```
+
+Install dependencies
+
+```bash
+  npm install express,express-handlebars
+```
+
+Start the server
+
+```bash
+  node index
+```
 
 ## Demo
 ![First Page](static/Image1.png)
@@ -23,3 +45,7 @@ Noterr is a Notes Taking App that Crate/Retrive/Update/Delete Notes after authen
 ![First Page](static/Image5.png)
 
 ![First Page](static/Image6.png)
+
+## Feedback
+
+If you have any feedback, please feel free to talk duvendersandhu@gmail.com
