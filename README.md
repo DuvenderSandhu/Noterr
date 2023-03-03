@@ -33,7 +33,7 @@ Start the server
   node index
 ```
 
-## Demo
+## Screenshots
 ![First Page](static/Image1.png)
 
 ![First Page](static/Image2.png)
