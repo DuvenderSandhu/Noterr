@@ -24,7 +24,7 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  npm install express,express-handlebars
+  npm install express express-handlebars
 ```
 
 Start the server
